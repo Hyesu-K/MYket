@@ -1,0 +1,192 @@
+@charset "EUC-KR";
+@font-face {
+	font-family: 'GodoB';
+	src: url(../css/godoFont/GodoB.ttf) format('truetype');
+}
+body {
+	margin: 0 auto;
+	width: 1080px;
+	min-width: 1080px;
+}
+form{
+	margin-bottom: 100px;
+}
+.info_table {
+	margin: 0 auto;
+	border: 2px solid black;
+	border-collapse: collapse;
+	colmargin: 0 auto;
+	width: 80%;
+	height: 350px;
+	font-family: GodoB;
+	font-size: 25px;
+	padding-top: 10px;
+	padding-bottom: 20px;
+}
+.info_tr {
+	height: 70px;
+	padding: 15px;
+}
+.th {
+	border: 2px solid black;
+	border-collapse: collapse;
+	height: 100%;
+	font-family: GodoB;
+	font-size: 25px;
+	text-align:center;
+}
+.td {
+	border: 2px solid black;
+	border-collapse: collapse;
+	width: 100%;
+	height: 100%;
+	font-family: GodoB;
+	font-size: 25px;
+	text-align:left;
+}
+.txt {
+	text-align: left;
+	width: 50%;
+	height: 30px;
+	border: 0px;
+	padding-left: 5px;
+	padding-right: 5px;
+	font-size: 15px;
+	font-family: GodoB;
+}
+.btn {
+border: 2px solid black;
+	border-radius: 3px;
+	background-color: white;
+	font-size: 15px;
+	font-family: GodoB;
+	margin-left: 5px;
+	margin-right: 5px;
+	height: 45px;
+	width: 45px;
+}
+.btnlogin {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: 100%;
+	border: 0;
+	border-left: 5px dotted black;
+	background-color: #6594BE;
+	font-size: 20pt;
+	font-family: GodoB;
+	color: white;
+}
+
+.btnmenu {
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	background-color: white; 
+	font-size : 30px;
+	font-family: GodoB;
+	border: 0;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	font-size: 30px;
+}
+.submit_a {
+	border: 2px solid black;
+	border-radius: 3px;
+	background-color: #6594BE;
+	color: white;
+	font-size: 30px;
+	font-family: GodoB;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding: 10px 15px;
+	
+}
+.a_div{
+	margin-top: 20px;
+	text-align: center;
+	
+}
+.btn:hover , .btnlogin:hover , .btnmenu:hover {
+	cursor: pointer;
+}
+.th{
+	width: 20%;
+}
+.reply_div{
+	font-family: GodoB;
+	display: inline-block;
+	
+	width: 80%;
+	height: auto; 
+	margin-top: 70px;
+	margin-bottom: 30px;
+	
+}
+
+.reply_table{
+	width: 100%;
+	border: 1px solid black;
+	border-collapse: collapse;
+	
+}
+.reply_tr1{
+	border: 1px solid black;
+	border-collapse: collapse;
+	height: 15px;
+	font-size: 25px;
+	background-color: #6594BE;
+	color: white;
+	padding: 15px;
+	margin: 5px;
+}
+.reply_tr2{
+	border: 1px solid black;
+	border-collapse: collapse;
+	height: 10px;
+	font-size: 20px;
+	padding: 5px;
+	margin: 5px;
+}
+.reply_td.reply_th{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 15px;
+}
+.reply_th{
+	height: 10px;
+	padding: 15px;
+}
+
+.replywrite{
+	margin-top: 50px;
+	text-align: center;
+}
+.content_txt{
+	font-size: 20px;
+	font-family: GodoB;
+	border: 1px solid black;
+	padding : 10px 5px 10px 5px; 
+	width: 70%;
+}
+
+.submit_btn{
+	border: 1px solid black;
+	border-radius: 3px;
+	background-color: #6594BE;
+	color: white;
+	font-size: 20px;
+	font-family: GodoB;
+	cursor: pointer;
+	padding: 10px 15px;
+}
+.replydelete_btn{
+	font-size: 15px; 
+	font-family: GodoB;
+	background-color: white;
+	border-style: none;
+	border: 0px;
+	outline: 0;
+	cursor: pointer;
+}

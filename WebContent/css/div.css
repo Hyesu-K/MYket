@@ -1,0 +1,32 @@
+@charset "EUC-KR";
+
+.logo_div {
+	display: table;
+	margin: 0 auto;
+	width: 100%;
+	height: 100px;
+}
+
+.menuBar_div {
+	display: table;
+	margin: 0 auto;
+	width: 100%;
+	line-height: 80px;
+	vertical-align: middle;
+	padding-bottom: 30px;
+}
+
+.main_div {
+	display: table;
+	margin: 0 auto;
+	width: 70%;
+	height: 300px;
+	border: 3px solid black;
+	border-radius: 4px;
+}
+
+.login_div {
+	display: inline-block;
+	width: 80%;
+	height: 100%;
+}

@@ -1,0 +1,53 @@
+@charset "EUC-KR";
+
+.txt {
+	width: 70%;
+	
+	height: 45px;
+	border: 2px solid black;
+	padding-left: 5px;
+	padding-right: 5px; 
+	font-size: 15px;
+	font-family: GodoB;
+}
+
+.btn {
+	
+	border: 0;
+	background-color: white;
+	font-size: 15pt;
+	font-family: GodoB;
+	margin-left: 5px;
+	margin-right: 5px; 
+}
+
+.btnlogin {
+	display: inline-block;
+	vertical-align: top;
+	width: 20%;
+	height: 100%;
+	border: 0;
+	border-left: 5px dotted black;
+	background-color: #6594BE;
+	font-size: 20pt;
+	font-family: GodoB;
+	color: white;
+}
+
+.btnmenu {
+	text-align: center;
+	display: inline-block;
+	width: 25%;
+	height: 100%;
+	background-color: white; 
+	font-size : 30px;
+	font-family: GodoB;
+	border: 0;
+	border-bottom: 2px solid black;
+	border-top: 2px solid black;
+	font-size: 30px;
+}
+
+.btn:hover , .btnlogin:hover , .btnmenu:hover {
+	cursor: pointer;
+}

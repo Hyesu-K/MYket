@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="euc-kr"?>
+<decorators defaultdir="/layout">
+	<decorator name="member" page="mainlayout.jsp">
+		<pattern>/member/*</pattern>
+		<pattern>/board/*</pattern>
+		<pattern>/calendar/*</pattern>
+		<pattern>/chart/main*</pattern>
+	</decorator>
+
+	<excludes>
+		<pattern>/member/id*</pattern>
+		<pattern>/member/pass*</pattern>
+		<pattern>/member/picture*</pattern>
+		<pattern>/member/nick*</pattern>
+		<pattern>/member/email*</pattern>
+		<pattern>/calendar/add*</pattern>
+		<pattern>/calendar/go*</pattern>
+		<pattern>/calendar/info*</pattern>
+		<pattern>/calendar/update*</pattern>
+		<pattern>/calendar/delete*</pattern>
+		<pattern>/calendar/today*</pattern>
+		<pattern>/chart/chart*</pattern>
+		<pattern>/reply/reply*</pattern>
+	</excludes>
+</decorators>
